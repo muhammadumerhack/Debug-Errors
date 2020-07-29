@@ -1,0 +1,9 @@
+Fix Error---
+Updates were rejected because the tip of your current branch is behind hint: its remote counterpart.
+
+Solution:-
+git pull -r origin master
+git push -u origin master
+
+Basically it happens when our git branches refs are not rebased and so pull -r rebases our branches to one we are trying to set.
+Also If you encountered an error in git or any thing else and found a solution so just mail us at umerbrothers20000@gmail.com 
